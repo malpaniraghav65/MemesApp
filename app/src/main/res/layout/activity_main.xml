@@ -27,11 +27,11 @@
     app:layout_constraintLeft_toLeftOf="@id/MemesimageView"/>
 
     <Button
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:id="@+id/sharebutton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:background="@color/sharebuttoncolor"
         android:onClick="ShareButton"
         android:padding="30dp"
         android:text="@string/share"
@@ -43,11 +43,11 @@
         android:id="@+id/nextbutton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:background="@color/nextbuttoncolor"
         android:onClick="Nextbutton"
         android:padding="30dp"
         android:text="@string/next"
+        android:textColor="#4527A0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@id/guideline2"
         app:layout_constraintRight_toRightOf="parent" />
